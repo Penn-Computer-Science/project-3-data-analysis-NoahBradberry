@@ -27,3 +27,5 @@ data = pd.DataFrame(
 
 print(data)
 print(round(data.describe()))
+print("Average GPA per hour of sleep")
+print(data.groupby('Hours Sleeping')['GPA'].mean())
