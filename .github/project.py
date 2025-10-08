@@ -1,5 +1,7 @@
 import pandas as pd
 import random 
+import matplotlib.pyplot as plt
+
 classes = ["Math", "Science", "History", "English"]
 grades = ["Freshmen", "Sophomore", "Junior", "Senior"]
 survey_classes = ["Math", "Math", "Math", "Science", "History", "English", "Math", "Math"]
@@ -26,6 +28,26 @@ data = pd.DataFrame(
 )
 
 print(data)
+data.to_csv('data.csv', index=False)
 print(round(data.describe()))
 print("Average GPA per hour of sleep")
-print(data.groupby('Hours Sleeping')['GPA'].mean())
+"""
+print(data.groupby('Hours Sleeping')['GPA'].mean().plot(kind = 'bar'))
+plt.title('Average GPA by Hour of sleep')
+plt.ylabel("GPA")
+plt.show()
+"""
+"""
+data['GPA'].plot(kind = 'hist', bins = 4)
+plt.title("Frequency of GPA")
+plt.xlabel("GPA")
+plt.show()
+"""
+
+mean_gpa = data.groupby('Favorite Class')['GPA'].mean().sort_index()
+
+mean_gpa.plot(kind='line')
+plt.title('Average GPA by Favorite Class')
+plt.xlabel('Favorite Class')
+plt.ylabel('Average GPA')
+plt.show()
