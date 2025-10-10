@@ -31,12 +31,14 @@ print(data)
 data.to_csv('data.csv', index=False)
 print(round(data.describe()))
 print("Average GPA per hour of sleep")
+#Average GPA per each hour of sleep bar chart
 """
 print(data.groupby('Hours Sleeping')['GPA'].mean().plot(kind = 'bar'))
 plt.title('Average GPA by Hour of sleep')
 plt.ylabel("GPA")
 plt.show()
 """
+#Frequency of GPA histogram
 """
 data['GPA'].plot(kind = 'hist', bins = 4)
 plt.title("Frequency of GPA")
@@ -44,6 +46,7 @@ plt.xlabel("GPA")
 plt.show()
 """
 
+#Favorite Class and GPA line chart
 mean_gpa = data.groupby('Favorite Class')['GPA'].mean().sort_index()
 
 mean_gpa.plot(kind='line')
@@ -51,3 +54,4 @@ plt.title('Average GPA by Favorite Class')
 plt.xlabel('Favorite Class')
 plt.ylabel('Average GPA')
 plt.show()
+
