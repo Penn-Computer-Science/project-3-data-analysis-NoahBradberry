@@ -30,9 +30,8 @@ List the questions you asked in your survey and their type:
 
 ## Data Overview
 - **Link to Raw Data File (CSV):** [Download here](./data.csv)
-- **Number of Columns:** _e.g., 6_
-- **Number of Rows:** _e.g., 25_
-- **Any Cleaning Steps Taken:** _Describe what you did (handled missing values, renamed columns, converted data types, etc.)_
+- **Number of Columns:** _5
+- **Number of Rows:** _31_
 
 ---
 
