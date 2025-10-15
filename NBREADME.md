@@ -40,10 +40,9 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | _Average Sleep by Grade Level_ | Bar Chart | Shows average hours of sleep for each grade level. | [![Chart 1](Figure_1.png)] |
-| 2 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | [![Chart 2](Figure_2.png)] |
-| 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | [![Chart 3](Figure_3.png)] |
-
+| 1 | _Average GPA by Hour of Sleep_ | Bar Chart |Shows the average GPA for every hour of sleep. | ![Chart 1](.github/Figure_1.png) |
+| 2 | _Frequency of GPA_ | Histogram | Shows how frequent all GPA's are (4 buckets) | ![Chart 1](.github/Figure_2.png) |
+| 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 1](.github/Figure_3.png) |
 
 ---
 
