@@ -21,7 +21,10 @@ List the questions you asked in your survey and their type:
 |---|---------------|-------------------------------------------------|
 | 1 | _What is your favorite core subject?_ | Multiple Choice |
 | 2 | _What grade are you?_ | Multiple Choice |
-| 3 | _..._ | _..._ |
+| 3 | _On average how many hours do you spend studying/doing homework outside of class?_ | _Range_ |
+| 4 | _On average how many hours of sleep do you get every night?_ | _Range_ |
+| 5 | _What is your GPA?_ | _Open Response_ |
+
 
 ---
 
