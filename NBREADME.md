@@ -42,21 +42,27 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 |---|-------------|-------------------------------------------|-------------------|---------------|
 | 1 | _Average GPA by Hour of Sleep_ | Bar Chart |Shows the average GPA for every hour of sleep. | ![Chart 1](.github/Figure_1.png) |
 | 2 | _Frequency of GPA_ | Histogram | Shows how frequent all GPA's are (4 buckets) | ![Chart 1](.github/Figure_2.png) |
-| 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 1](.github/Figure_3.png) |
+| 3 | _Average GPA by Favorite Class_ | Line | Shows the average GPA of every student that selected a certain favorite class | ![Chart 1](.github/Figure_3.png) |
 
 ---
 
 ## Data Analysis & Insights
 Write a short analysis of your findings. Include at least one interesting insight from your data.
 
-> _Example:_ “We found that students who sleep 7–8 hours per night reported higher average GPAs than those who sleep less than 5 hours. Energy drink consumption peaked among 11th graders.”
+> I found that sleep didn't greatly affect GPA, students more frequently had a GPA >= 4, and that students that picked History as their favorite class had lower GPAs than students who picked the other classes.
 
 ---
 
 ## Reflection
 Answer briefly:
 - What went well in your project?
+  
+   Getting the Data and making a .csv
 - What was the most challenging part?
+  
+   Making this .md file and making the charts
 - If you had more time, what would you do differently?
+  
+   Spend more time analyzing the data to get more detailed results
 
 ---
